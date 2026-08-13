@@ -2022,7 +2022,7 @@ function BookingModal({ lang, onClose }: { lang: Lang; onClose: () => void }) {
         `${lang === "ru" ? "Имя" : lang === "kg" ? "Аты" : "Name"}: ${form.name}\n` +
         `${lang === "ru" ? "Телефон" : "Phone"}: ${form.phone}`,
     );
-    window.open(`https://wa.me/996500000000?text=${msg}`, "_blank");
+    window.open(`https://wa.me/996500000371?text=${msg}`, "_blank");
     onClose();
   };
 
@@ -2243,7 +2243,7 @@ function Header({
               ))}
             </div>
             <a
-              href="https://wa.me/996500000000"
+              href="https://wa.me/996500000371"
               target="_blank"
               rel="noopener noreferrer"
               className={`text-[13px] font-medium transition-colors ${dark ? "text-white/70 hover:text-white" : "text-[#0C1628]/60 hover:text-[#0C1628]"}`}
@@ -2340,10 +2340,10 @@ function Footer({ lang, setPage }: { lang: Lang; setPage: (p: Page) => void }) {
             </p>
             <div className="mt-6 space-y-1.5">
               <a
-                href="tel:+996500000000"
+                href="tel:+996500000371"
                 className="flex items-center gap-2 text-sm text-white/60 hover:text-white transition-colors"
               >
-                <Phone size={13} /> +996 500 000 000
+                <Phone size={13} /> +996 500 000 371
               </a>
               <a
                 href="tel:+77010000000"
@@ -2394,7 +2394,7 @@ function Footer({ lang, setPage }: { lang: Lang; setPage: (p: Page) => void }) {
             <ul className="space-y-2.5">
               <li>
                 <a
-                  href="https://wa.me/996500000000"
+                  href="https://wa.me/996500000371"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-white/60 hover:text-white transition-colors"
@@ -3017,7 +3017,7 @@ function CTASection({ lang, onBook }: { lang: Lang; onBook: () => void }) {
             {tr.whatsapp} <ArrowRight size={13} />
           </button>
           <a
-            href="tel:+996500000000"
+            href="tel:+996500000371"
             className="border border-white/30 text-white text-[12px] font-medium tracking-[0.15em] uppercase px-10 py-4 hover:border-white/60 transition-colors flex items-center gap-2 w-fit"
           >
             <Phone size={13} /> {tr.call}
@@ -3641,7 +3641,7 @@ function PartnershipPage({ lang, onBook }: { lang: Lang; onBook: () => void }) {
     const msg = encodeURIComponent(
       `Партнерство / Partnership\nИмя: ${form.name}\nКомпания: ${form.company}\nТелефон: ${form.phone}\nСообщение: ${form.message}`,
     );
-    window.open(`https://wa.me/996500000000?text=${msg}`, "_blank");
+    window.open(`https://wa.me/996500000371?text=${msg}`, "_blank");
   };
   return (
     <>
